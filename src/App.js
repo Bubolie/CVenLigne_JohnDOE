@@ -8,7 +8,7 @@ import Realisations from "./pages/Realisations";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Legal from "./pages/Legal";
-import NotFound from "./pages/NotFound";
+import NotFound from "./pages/NotFound.jsx";
 import Up from "./components/Up";
 
 import Footer from "./components/Footer";
