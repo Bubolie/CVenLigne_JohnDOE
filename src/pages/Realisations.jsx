@@ -16,7 +16,7 @@ const Realisations = () => {
         className="img-fluid"
       />
 
-      <Title title="Portfolio" text="Voici quelques-une de mes réalisations." />
+      <Title title="Portfolio" text="Voici quelques-unes de mes réalisations." />
       <div className="row px-5 mb-5 ">
         <div className="my-2 col-md-6 col-lg-4" id="fresh-food">
           <Cards

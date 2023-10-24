@@ -134,11 +134,11 @@ const Legal = () => {
           >
             <div className="accordion-body text-start">
               <h3 className="mb-2">Crédits</h3>
-              <p>
+              <p className="my-2">
                 Site développé par {User.firstName} {User.lastName}, étudiant
                 CEF.
               </p>
-              <p>
+              <p className="my-2">
                 Les images libres de droits sont issues du site{" "}
                 <Link
                   className="text-primary"
