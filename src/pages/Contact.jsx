@@ -77,9 +77,7 @@ const Contact = () => {
                   <Link
                     to="https://maps.app.goo.gl/L6rbq1wzeTKh7EzC9"
                     target="_blank"
-                  >
-                    {" "}
-                    {User.adresse1}, {User.adresse2}
+                  > {User.adresse1}, {User.adresse2}
                   </Link>
                 </address>
               </div>
@@ -92,7 +90,7 @@ const Contact = () => {
               </div>
               <div className="mt-3">
                 <iframe
-                title="Carte de l'adresse de John Doe"
+                  title="Carte de l'adresse de John Doe"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.6269657540984!2d4.796403976654687!3d45.778665712401626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon!5e0!3m2!1sfr!2sfr!4v1697399358793!5m2!1sfr!2sfr"
                   style={{ border: 0, width: "100%", height: "250px" }}
                   allowfullscreen=""

@@ -40,9 +40,9 @@ const Services = () => {
             text={
               <span>
                 Le <strong>développment de sites web</strong> repose sur
-                l'utilisation des langages <span className="dotted">HTML</span>,{" "}
-                <span className="dotted">CSS</span>, JavaScipt et{" "}
-                <span className="dotted">PHP</span>.
+                l'utilisation des langages <span className="dotted">HTML</span>, 
+                <span className="dotted">CSS</span>, JavaScipt 
+                et <span className="dotted">PHP</span>.
               </span>
             }
           />

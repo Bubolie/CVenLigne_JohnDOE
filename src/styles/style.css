@@ -1,15 +1,3 @@
-.dotted {
-  text-decoration: underline dotted;
-}
-
-.text-color {
-  color: #444;
-}
-
-.bg-footer {
-  background-color: #eeeeee;
-}
-
 a {
   text-decoration: none;
   color: #444;
@@ -21,6 +9,18 @@ a:hover {
 
 footer h2 {
   font-size: 1.2em;
+}
+
+.bg-footer {
+  background-color: #eeeeee;
+}
+
+.dotted {
+  text-decoration: underline dotted;
+}
+
+.text-color {
+  color: #444;
 }
 
 .bg-home {
@@ -40,15 +40,19 @@ footer h2 {
   background-blend-mode: overlay;
 }
 
-#swipe-up {
+.hidden {
+  display: none;
+}
+
+#swipeUpButton {
   border: solid #444;
   border-radius: 10px;
   position: fixed;
   right: 1em;
   bottom: 1em;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-#swipe-up:hover {
+#swipeUpButton:hover {
   color: #298eff;
 }

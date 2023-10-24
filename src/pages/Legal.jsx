@@ -38,7 +38,7 @@ const Legal = () => {
                 <h3 className="mb-2">
                   {User.firstName} {User.lastName}
                 </h3>
-                <p>
+                <p className="m-2">
                   <FontAwesomeIcon
                     icon={faLocationDot}
                     style={{ color: "#444" }}
@@ -46,8 +46,8 @@ const Legal = () => {
                   />
                   {User.adresse1}
                 </p>
-                <p>{User.adresse2}</p>
-                <p>
+                <p className="m-2">{User.adresse2}</p>
+                <p className="m-2">
                   <FontAwesomeIcon
                     icon={faMobileScreenButton}
                     style={{ color: "#444" }}
@@ -58,7 +58,7 @@ const Legal = () => {
                     </Link>
                   </strong>
                 </p>
-                <p>
+                <p className="m-2">
                   <FontAwesomeIcon
                     icon={faEnvelope}
                     style={{ color: "#000444" }}
