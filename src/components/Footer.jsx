@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import github from "../assets/icones/github.png";
 import twitter from "../assets/icones/twitter.png";
@@ -32,62 +32,63 @@ const Footer = () => {
             <h2 className="my-2">
               {User.firstName} {User.lastName}
             </h2>
-            <Link
-              to="https://maps.app.goo.gl/L6rbq1wzeTKh7EzC9"
+            <a
+              href="https://maps.app.goo.gl/L6rbq1wzeTKh7EzC9"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <p>{User.adresse1}</p>
               <p>{User.adresse2}</p>
-            </Link>
-            <Link to={`tel: ${User.tel}`}>Téléphone : {User.tel}</Link>
+            </a>
+            <a href={`tel: ${User.tel}`}>Téléphone : {User.tel}</a>
           </address>
           <div>
-            <Link to={link.html_url} target="_blank" rel="noopener noreferrer">
-              <img src={github} alt="logo de Github" className="mx-2" />
-            </Link>
-            <Link
-              to="https://twitter.com/"
+            <a href={link.html_url} target="_blank" rel="noopener noreferrer">
+              <img src={github} alt="logo de Github" className="mx-2" width={24} height={24}/>
+            </a>
+            <a
+              href="https://twitter.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={twitter} alt="logo de Twitter" className="mx-2" />
-            </Link>
-            <Link
-              to="https://www.linkedin.com/"
+              <img src={twitter} alt="logo de Twitter" className="mx-2" width={24} height={24}/>
+            </a>
+            <a
+              href="https://www.linkedin.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={linkedin} alt="logo de Linkedin" className="mx-2" />
-            </Link>
+              <img src={linkedin} alt="logo de Linkedin" className="mx-2" width={24} height={24}/>
+            </a>
           </div>
         </section>
         <section className="col-md-6 col-lg-3">
           <h2 className="my-2">Liens utiles</h2>
           <ul className="px-2">
             <li>
-              <NavLink to="/">
+              <Link to="/">
                 <Arrow /> Accueil
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink to="/#about">
+              <a href="/#about">
                 <Arrow /> A propos
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink to="/services">
+              <Link to="/services">
                 <Arrow /> Services
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink to="/contact">
+              <Link to="/contact">
                 <Arrow /> Me contacter
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink to="/legal" rel="noopener noreferrer">
+              <Link to="/legal" rel="noopener noreferrer">
                 <Arrow /> Mentions Légales
-              </NavLink>
+              </Link>
             </li>
           </ul>
         </section>
@@ -95,19 +96,19 @@ const Footer = () => {
           <h2 className="my-2">Mes dernières réalisations</h2>
           <ul className="px-2">
             <li>
-              <NavLink to="/projects#fresh-food">
+              <a href="/projects#fresh-food">
                 <Arrow /> Fresh food
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink to="/projects#restaurant-akira">
+              <a href="/projects#restaurant-akira">
                 <Arrow /> Restaurant Akira
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink to="/projects#espace-bien-etre">
+              <a href="/projects#espace-bien-etre">
                 <Arrow /> Espace bien-être
-              </NavLink>
+              </a>
             </li>
           </ul>
         </section>
@@ -115,19 +116,19 @@ const Footer = () => {
           <h2 className="my-2">Mes derniers articles</h2>
           <ul className="px-2">
             <li>
-              <Link to="/blog/#coder-html-css">
+              <a href="/blog/#coder-html-css">
                 <Arrow /> Coder son site en HTML/CSS
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/blog/#vendre-sur-web">
+              <a href="/blog/#vendre-sur-web">
                 <Arrow /> Vendre ses produits sur le web
-              </Link>
+              </a>
             </li>
             <li>
-              <NavLink to="/blog/#se-positionner-sur-google">
+              <a href="/blog/#se-positionner-sur-google">
                 <Arrow /> Se positionner sur Google
-              </NavLink>
+              </a>
             </li>
           </ul>
         </section>

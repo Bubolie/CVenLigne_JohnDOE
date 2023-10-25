@@ -23,7 +23,7 @@ const Blog = () => {
         title="Blog"
         text="Retrouvez ici quelques articles sur le développement web."
       />
-      <div className="row mb-5 px-5 " id="coder-html-css">
+      <div className="row mb-5 px-md-5 px-2" id="coder-html-css">
         <div className="my-2 col-md-6 col-lg-4">
           <Cards
             align="text-start"

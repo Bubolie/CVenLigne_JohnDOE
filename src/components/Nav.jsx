@@ -7,14 +7,14 @@ const Nav = () => {
     <header>
       <nav
         id="sidebar"
-        className="navbar navbar-dark bg-dark navbar-expand-lg px-md-5 px-2"
+        className="navbar navbar-dark bg-dark navbar-expand-lg px-md-5 px-2 "
       >
         <div className="container-fluid">
           <Link className="navbar-brand text-light text-uppercase" to="/">
             {User.firstName} {User.lastName}
           </Link>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler text-light"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -22,7 +22,7 @@ const Nav = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon text-light"></span>
           </button>
           <div
             className="collapse navbar-collapse justify-content-end"

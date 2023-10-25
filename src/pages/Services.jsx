@@ -19,8 +19,8 @@ const Services = () => {
         title="Mon offre de services"
         text="Voici les prestations sur lesquelles je peux intervenir."
       />
-      <div className="my-5 p-5 row">
-        <article className="col-md-4">
+      <div className="mb-5 p-md-5 p-2 row">
+        <article className="col-md-4 my-1">
           <CompService
             icon={faDisplay}
             title="UX Design"
@@ -33,21 +33,21 @@ const Services = () => {
             }
           />
         </article>
-        <article className="col-md-4">
+        <article className="col-md-4 my-1">
           <CompService
             icon={faFileCode}
             title="Développement web"
             text={
               <span>
                 Le <strong>développment de sites web</strong> repose sur
-                l'utilisation des langages <span className="dotted">HTML</span>,{" "}
-                <span className="dotted">CSS</span>, JavaScipt et{" "}
-                <span className="dotted">PHP</span>.
+                l'utilisation des langages <span className="dotted">HTML</span>,
+                <span className="dotted"> CSS</span>, JavaScipt 
+                et <span className="dotted">PHP</span>.
               </span>
             }
           />
         </article>
-        <article className="col-md-4">
+        <article className="col-md-4 my-1">
           <CompService
             icon={faMagnifyingGlassDollar}
             title="Référencement"
@@ -55,7 +55,7 @@ const Services = () => {
               <span>
                 Le <strong>référencement naturel d'un site</strong>, aussi
                 appelé <span className="dotted">SEO</span>, consiste à mettre
-                des techniques en oeuvre oiur amélirer sa position dans kes
+                des techniques en oeuvre pour améliorer sa position dans les
                 résultats des moteurs de recherche.
               </span>
             }

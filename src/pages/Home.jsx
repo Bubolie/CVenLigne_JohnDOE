@@ -33,8 +33,8 @@ const Home = () => {
           <hr className="border border-primary border-1 opacity-100" />
           <p>
             Passionné par l'informatique et les nouvelles technologies, j'ai
-            suivi une formation d'<strong>intégrateur-dévelopeeur web</strong>{" "}
-            au CEF. Au cours de cette foramtion, j'ai pu acquérir des bases
+            suivi une formation d'<strong>intégrateur-dévelopeur web</strong>{" "}
+            au CEF. Au cours de cette formation, j'ai pu acquérir des bases
             solides pour travailler dans le domaine du{" "}
             <strong>développement web</strong>.
           </p>
@@ -54,7 +54,7 @@ const Home = () => {
             className="rounded"
             alt="Tête d'un homme de profil en train de travailler dans un bureau"
           />
-          <h4>Mes compétences</h4>
+          <h4 className="my-2">Mes compétences</h4>
           <Skill skill="HTML" progress="90" color="danger" />
           <Skill skill="CSS3" progress="80" color="info" />
           <Skill skill="JAVASCRIPT" progress="70" color="warning" />
