@@ -19,7 +19,7 @@ const Services = () => {
         title="Mon offre de services"
         text="Voici les prestations sur lesquelles je peux intervenir."
       />
-      <div className="my-5 p-5 row">
+      <div className="mb-5 p-md-5 p-2 row">
         <article className="col-md-4 my-1">
           <CompService
             icon={faDisplay}
